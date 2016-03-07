@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PatternCall</string>
+
+    <string name="pref_title_pattern_lock">Pattern Lock</string>
+    <string name="pref_title_set_pattern">Set Pattern</string>
+    <string name="pref_title_clear_pattern">Clear Pattern</string>
+    <string name="pref_title_pattern_visible">Pattern visible</string>
+
+    <string name="pref_summary_pattern_visible_on">Show Pattern Drawing</string>
+    <string name="pref_summary_pattern_visible_off">Hidden Pattern Drawing</string>
+
+    <string name="pref_dialog_message_clear_pattern">Clear Pattern?</string>
+
+    <string name="pattern_cleared">Pattern has been cleared</string>
+    <string name="pattern_reset">Pattern has been reset</string>
+
+</resources>
