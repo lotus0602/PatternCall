@@ -6,6 +6,7 @@
     <string name="pref_title_clear_pattern">Clear Pattern</string>
     <string name="pref_title_pattern_visible">Pattern visible</string>
     <string name="pref_title_pattern_call">Pattern Call</string>
+    <string name="pref_title_caller">Caller</string>
 
     <string name="pref_summary_pattern_visible_on">Show Pattern Drawing</string>
     <string name="pref_summary_pattern_visible_off">Hidden Pattern Drawing</string>
@@ -14,6 +15,7 @@
 
     <string name="pattern_cleared">Pattern has been cleared</string>
     <string name="pattern_reset">Pattern has been reset</string>
+    <string name="pattern_draw_to_call">Draw Pattern to Call</string>
 
     <string name="btn_pattern_call_add">Add Pattern To Call</string>
 </resources>

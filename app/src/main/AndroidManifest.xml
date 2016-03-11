@@ -2,7 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.n.patterncall" >
 
-    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <application
         android:allowBackup="true"
@@ -24,6 +25,8 @@
         <activity android:name=".app.ConfirmPatternActivity" >
         </activity>
         <activity android:name=".app.PatternCallActivity" >
+        </activity>
+        <activity android:name=".app.CallerActivity" >
         </activity>
     </application>
 

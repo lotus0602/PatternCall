@@ -14,4 +14,11 @@
             android:targetPackage="com.n.patterncall"
             android:targetClass="com.n.patterncall.app.PatternCallActivity"/>
     </Preference>
+
+    <Preference
+        android:title="@string/pref_title_caller">
+        <intent
+            android:targetPackage="com.n.patterncall"
+            android:targetClass="com.n.patterncall.app.CallerActivity"/>
+    </Preference>
 </PreferenceScreen>

@@ -28,10 +28,6 @@ public class PatternCallUtils {
 
     private PatternCallUtils() {}
 
-    private static String getPhoneNumberUriToString(String key, Context context) {
-        return PreferenceUtils.getString(key, KEY_RELATED_VALUE_DEFAULT, context);
-    }
-
     private static Set<String> getKeyPatternSet(Context context) {
         return PreferenceUtils.getStringSet(KEY_PATTERN_SET,
                 KEY_PATTERN_SET_DEFAULT, context);
@@ -61,6 +57,10 @@ public class PatternCallUtils {
         }
     }
 
+    public static String getPhoneNumberUriToString(String key, Context context) {
+        return PreferenceUtils.getString(key, KEY_RELATED_VALUE_DEFAULT, context);
+    }
+
     public static void setPhoneNumberUriToString(List<PatternView.Cell> keyPattern, String value, Context context) {
         String patternKeyAndValue = PatternUtils.patternToSha1String(keyPattern);
         PreferenceUtils.putString(patternKeyAndValue, value, context);
@@ -70,6 +70,10 @@ public class PatternCallUtils {
 
     public static boolean hasKeyPatternSet(Context context) {
         return getKeyPatternSet(context) != null;
+    }
+
+    public static boolean hasKeyPatternFromSet(String key, Context context) {
+        return getKeyPatternSet(context).contains(key);
     }
 
     public static void clearPattern(String key, Context context) {
