@@ -22,8 +22,8 @@ public class PatternLockUtils {
     public static final String KEY_PATTERN_DEFAULT = null;
     public static final String KEY_PATTERN_SHA1 = "pref_key_pattern";
 
-    public static final String KEY_PATTERN_VISIBLE = "pref_key pattern_visible";
     public static final boolean KEY_PATTERN_VISIBLE_DEFAULT = true;
+    public static final String KEY_PATTERN_VISIBLE = "pref_key pattern_visible";
 
     private PatternLockUtils() { }
 

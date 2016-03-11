@@ -7,4 +7,11 @@
             android:targetPackage="com.n.patterncall"
             android:targetClass="com.n.patterncall.app.PatternLockActivity"/>
     </Preference>
+
+    <Preference
+        android:title="@string/pref_title_pattern_call">
+        <intent
+            android:targetPackage="com.n.patterncall"
+            android:targetClass="com.n.patterncall.app.PatternCallActivity"/>
+    </Preference>
 </PreferenceScreen>

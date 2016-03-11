@@ -30,7 +30,6 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onResume() {
             super.onResume();
-
             PreferenceUtils.getPreferences(getActivity())
                     .registerOnSharedPreferenceChangeListener(this);
         }
@@ -38,7 +37,6 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onPause() {
             super.onPause();
-
             PreferenceUtils.getPreferences(getActivity())
                     .unregisterOnSharedPreferenceChangeListener(this);
         }

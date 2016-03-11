@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.n.patterncall" >
 
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -15,14 +17,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".app.PatternLockActivity" >
         </activity>
-
         <activity android:name=".app.SetPatternActivity" >
         </activity>
-
         <activity android:name=".app.ConfirmPatternActivity" >
+        </activity>
+        <activity android:name=".app.PatternCallActivity" >
         </activity>
     </application>
 

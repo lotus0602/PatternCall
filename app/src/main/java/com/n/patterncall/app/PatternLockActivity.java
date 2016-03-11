@@ -20,7 +20,6 @@ public class PatternLockActivity extends AppCompatActivity {
         if (savedInstanceState != null) {
             isConfirmStarted = savedInstanceState.getBoolean(KEY_CONFIRM_STARTED);
         }
-
         if (!isConfirmStarted) {
             PatternLockUtils.confirmPatternIfHas(this);
             isConfirmStarted = true;
@@ -30,7 +29,6 @@ public class PatternLockActivity extends AppCompatActivity {
     @Override
     protected void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
-
         outState.putBoolean(KEY_CONFIRM_STARTED, isConfirmStarted);
     }
 
